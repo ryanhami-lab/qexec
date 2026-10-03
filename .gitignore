@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.hypothesis/
+*.egg-info/
+dist/
+build/
+
+# Licensed raw data and generated artifacts are never committed.
+data/
+artifacts/
+runs/
+out/
+*.dbn
+*.dbn.zst
+.env
+*.key
+
+# Local agent/editor context and credentials are never part of a release.
+.kiro/
+.codex/
+.env.*
+*.pem
+*.p12
+*.pfx
+credentials.json
+.DS_Store
+Thumbs.db

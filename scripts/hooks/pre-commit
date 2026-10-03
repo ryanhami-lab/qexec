@@ -1,0 +1,4 @@
+#!/bin/sh
+# Git pre-commit hook: run the fast pipeline. Install with scripts/install-hooks.ps1.
+root="$(git rev-parse --show-toplevel)"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$root/scripts/ci.ps1" -Fast

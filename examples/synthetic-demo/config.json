@@ -1,0 +1,36 @@
+{
+  "base_seed": 0,
+  "bootstrap_n": 200,
+  "bootstrap_seed": 0,
+  "data_kind": "SYNTHETIC",
+  "duration_s": 120,
+  "epsilon": 0.001,
+  "epsilon_sensitivity": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01,
+    1.0
+  ],
+  "horizon_ladder_ns": [
+    1000000000,
+    5000000000
+  ],
+  "max_workers": 2,
+  "n_pilot_sessions": 1,
+  "n_sessions": 4,
+  "quick": true,
+  "scenarios": [
+    "L1",
+    "L6"
+  ],
+  "split_fractions": [
+    0.5,
+    0.2,
+    0.3
+  ],
+  "study_id": "demo",
+  "support_margin_frac": 0.5,
+  "support_min_eligible": 5,
+  "support_min_queue_depletion": 1
+}
